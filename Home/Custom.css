@@ -1,0 +1,115 @@
+/*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}*/
+/*.btn-op{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    padding: 3px 10px;
+    font-size: medium;
+    background-color: black;
+    color: azure;
+    
+}
+a{
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    width: 38%;
+    padding: 17px;
+    margin-top: 3cm;  
+}
+.A_let{
+    font-size: 4em;
+    color: blue;
+    padding: 0px 15px;
+    animation: bottom 2s 3s forwards;
+    overflow: hidden;
+
+}
+.B_let{
+    font-size: 4em;
+    color: rgb(0, 255, 0);
+    padding: 0px 15px;
+    
+    
+}
+.D_let{
+    font-size: 4em;
+    color: rgb(251, 255, 0);
+    padding: 0px 15px;
+}
+.U_let{
+    font-size: 4em;
+    color: rgb(255, 0, 0);
+    padding: 0px 15px;
+}
+.L_let{
+    font-size: 4em;
+    color: rgb(140, 0, 255);
+    padding: 0px 15px;
+}
+.L2_let{
+    font-size: 4em;
+    color: rgb(0, 238, 255);
+    padding: 0px 15px;
+}
+.A2_let{
+    font-size: 4em;
+    color: rgb(255, 0, 212);
+    padding: 0px 15px 0px 15px;
+}
+@keyframes bottom {
+    0% { bottom: 100%; }
+    100% { bottom: 0%; }
+}*/
+.container{
+    text-align: center;
+    overflow: visible;
+    flex: 0 0 1rem;
+}
+.container h2{
+    background-color:black ;
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 4cm;
+    text-align: center;
+}
+h2{
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    font-family: arial;
+    margin: 0px;
+
+}
+span{
+    color: #0a8df1;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.btn-hero{
+    border: 2px solid black;
+    background:transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arial black;
+    margin-top: 2cm;
+    transition: 0.3s ease;
+    margin-left: 40%;
+    padding: 5px 16px;
+    display: inline-block;
+}
+.btn-hero:hover{
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
